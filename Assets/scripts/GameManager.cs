@@ -74,10 +74,10 @@ public class GameManager : MonoBehaviour {
 
     void DimAll()
     {
-        red.image.color = new Color(1f, 0f, 0f, 0.25f);
-        yellow.image.color = new Color(1f, 1f, 0f, 0.25f);
-        green.image.color = new Color(0f, 1f, 0f, 0.25f);
-        blue.image.color = new Color(0f, 0f, 1f, 0.25f);
+        red.image.color = new Color(1f, 0f, 0f, 0.1f);
+        yellow.image.color = new Color(1f, 1f, 0f, 0.1f);
+        green.image.color = new Color(0f, 1f, 0f, 0.1f);
+        blue.image.color = new Color(0f, 0f, 1f, 0.1f);
     }
 
     void HighlightAll()
